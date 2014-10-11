@@ -37,6 +37,7 @@ static ADCoreData * coreData;
     dispatch_once(&onceToken, ^{
         coreData = [[self alloc] init];
         coreData.storeName = storeName;
+        NSLog(@"%@", [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]);
     });
     
     return coreData;
@@ -74,8 +75,13 @@ static ADCoreData * coreData;
     }
     
     NSURL * storeUrl = [[self applicationDomainUrl] URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.sqlite", _storeName]];
+    // when change content. it can't crash
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+    						 [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+    						 [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+    
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedobjectModel];
-    [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:nil error:nil];
+    [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:options error:nil];
     return _persistentStoreCoordinator;
 }
 

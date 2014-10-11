@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3660F5D19E94B58000A11FF /* Alice.m in Sources */ = {isa = PBXBuildFile; fileRef = B3660F5C19E94B58000A11FF /* Alice.m */; };
 		B39DBC1D19E8DB8A00A4BCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39DBC1C19E8DB8A00A4BCC7 /* Foundation.framework */; };
 		B39DBC1F19E8DB8A00A4BCC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39DBC1E19E8DB8A00A4BCC7 /* CoreGraphics.framework */; };
 		B39DBC2119E8DB8A00A4BCC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39DBC2019E8DB8A00A4BCC7 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3660F5B19E94B58000A11FF /* Alice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alice.h; sourceTree = "<group>"; };
+		B3660F5C19E94B58000A11FF /* Alice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alice.m; sourceTree = "<group>"; };
 		B39DBC1919E8DB8A00A4BCC7 /* CoreData_CE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData_CE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39DBC1C19E8DB8A00A4BCC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B39DBC1E19E8DB8A00A4BCC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +129,8 @@
 				B39DBC2B19E8DB8A00A4BCC7 /* ADAppDelegate.h */,
 				B39DBC2C19E8DB8A00A4BCC7 /* ADAppDelegate.m */,
 				B39DBC5419E8E5F500A4BCC7 /* CoreData.xcdatamodeld */,
+				B3660F5B19E94B58000A11FF /* Alice.h */,
+				B3660F5C19E94B58000A11FF /* Alice.m */,
 				B39DBC5719E8E61D00A4BCC7 /* Dylan.h */,
 				B39DBC5819E8E61D00A4BCC7 /* Dylan.m */,
 				B39DBC2E19E8DB8A00A4BCC7 /* Images.xcassets */,
@@ -275,6 +280,7 @@
 				B39DBC5319E8E07B00A4BCC7 /* ADCoreDataManager.m in Sources */,
 				B39DBC5619E8E5F500A4BCC7 /* CoreData.xcdatamodeld in Sources */,
 				B39DBC2919E8DB8A00A4BCC7 /* main.m in Sources */,
+				B3660F5D19E94B58000A11FF /* Alice.m in Sources */,
 				B39DBC2D19E8DB8A00A4BCC7 /* ADAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +478,7 @@
 				B39DBC4719E8DB8A00A4BCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B39DBC4819E8DB8A00A4BCC7 /* Build configuration list for PBXNativeTarget "CoreData_CETests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +487,7 @@
 				B39DBC4A19E8DB8A00A4BCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

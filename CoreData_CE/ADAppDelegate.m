@@ -9,6 +9,7 @@
 #import "ADAppDelegate.h"
 #import "ADCoreData.h"
 #import "Dylan.h"
+#import "Alice.h"
 
 @implementation ADAppDelegate
 
@@ -48,6 +49,13 @@
     [coreData modify:dylan1 predicateString:nil];
     NSLog(@"sixth = %@", [coreData findByModel:dylan]);
     NSLog(@"seventh = %@", [coreData findByModel:dylan1]);
+    
+    Alice * alice = [[Alice alloc] initWithEntity:[NSEntityDescription entityForName:@"Alice" inManagedObjectContext:coreData.manageContext] insertIntoManagedObjectContext:nil];
+    alice.name = @"Alice";
+    
+//    [coreData create:alice];
+    NSLog(@"eighth = %@", [coreData findByModel:alice]);
+    
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
