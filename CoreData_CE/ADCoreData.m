@@ -75,7 +75,7 @@ static ADCoreData * coreData;
     }
     
     NSURL * storeUrl = [[self applicationDomainUrl] URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.sqlite", _storeName]];
-    // when change content. it can't crash
+    // when version changed can't crash
     NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
     						 [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
     						 [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
@@ -200,7 +200,6 @@ predicateString: (NSString *)predicateString {
     }
     return request;
 }
-
 
 #pragma mark - save
 - (BOOL)saveContext {

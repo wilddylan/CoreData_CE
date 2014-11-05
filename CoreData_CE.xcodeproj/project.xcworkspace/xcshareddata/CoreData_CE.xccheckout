@@ -11,17 +11,17 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8B081A16FE51377CB306285F51DC8079DD81C4A9</key>
-		<string>ssh://github.com/xueyulun1994/CoreData_CE.git</string>
+		<string>github.com:xueyulun1994/CoreData_CE.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CoreData_CE.xcodeproj/project.xcworkspace</string>
+	<string>CoreData_CE.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8B081A16FE51377CB306285F51DC8079DD81C4A9</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/xueyulun1994/CoreData_CE.git</string>
+	<string>github.com:xueyulun1994/CoreData_CE.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

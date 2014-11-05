@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3660F5D19E94B58000A11FF /* Alice.m in Sources */ = {isa = PBXBuildFile; fileRef = B3660F5C19E94B58000A11FF /* Alice.m */; };
+		B367351219F10450009160FC /* Alice.m in Sources */ = {isa = PBXBuildFile; fileRef = B367351119F10450009160FC /* Alice.m */; };
+		B367351519F10451009160FC /* Dylan.m in Sources */ = {isa = PBXBuildFile; fileRef = B367351419F10451009160FC /* Dylan.m */; };
 		B39DBC1D19E8DB8A00A4BCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39DBC1C19E8DB8A00A4BCC7 /* Foundation.framework */; };
 		B39DBC1F19E8DB8A00A4BCC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39DBC1E19E8DB8A00A4BCC7 /* CoreGraphics.framework */; };
 		B39DBC2119E8DB8A00A4BCC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39DBC2019E8DB8A00A4BCC7 /* UIKit.framework */; };
@@ -24,7 +25,6 @@
 		B39DBC5019E8DC1800A4BCC7 /* ADCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = B39DBC4F19E8DC1800A4BCC7 /* ADCoreData.m */; };
 		B39DBC5319E8E07B00A4BCC7 /* ADCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B39DBC5219E8E07B00A4BCC7 /* ADCoreDataManager.m */; };
 		B39DBC5619E8E5F500A4BCC7 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B39DBC5419E8E5F500A4BCC7 /* CoreData.xcdatamodeld */; };
-		B39DBC5919E8E61D00A4BCC7 /* Dylan.m in Sources */ = {isa = PBXBuildFile; fileRef = B39DBC5819E8E61D00A4BCC7 /* Dylan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B3660F5B19E94B58000A11FF /* Alice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alice.h; sourceTree = "<group>"; };
-		B3660F5C19E94B58000A11FF /* Alice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alice.m; sourceTree = "<group>"; };
+		B367350219F10329009160FC /* CoreData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreData 2.xcdatamodel"; sourceTree = "<group>"; };
+		B367350919F10402009160FC /* CoreData 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreData 3.xcdatamodel"; sourceTree = "<group>"; };
+		B367351019F10450009160FC /* Alice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alice.h; sourceTree = "<group>"; };
+		B367351119F10450009160FC /* Alice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alice.m; sourceTree = "<group>"; };
+		B367351319F10450009160FC /* Dylan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dylan.h; sourceTree = "<group>"; };
+		B367351419F10451009160FC /* Dylan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dylan.m; sourceTree = "<group>"; };
 		B39DBC1919E8DB8A00A4BCC7 /* CoreData_CE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData_CE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39DBC1C19E8DB8A00A4BCC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B39DBC1E19E8DB8A00A4BCC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +66,6 @@
 		B39DBC5119E8E07B00A4BCC7 /* ADCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCoreDataManager.h; sourceTree = "<group>"; };
 		B39DBC5219E8E07B00A4BCC7 /* ADCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCoreDataManager.m; sourceTree = "<group>"; };
 		B39DBC5519E8E5F500A4BCC7 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
-		B39DBC5719E8E61D00A4BCC7 /* Dylan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dylan.h; sourceTree = "<group>"; };
-		B39DBC5819E8E61D00A4BCC7 /* Dylan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dylan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,11 +130,11 @@
 				B39DBC4D19E8DC0B00A4BCC7 /* CoreData */,
 				B39DBC2B19E8DB8A00A4BCC7 /* ADAppDelegate.h */,
 				B39DBC2C19E8DB8A00A4BCC7 /* ADAppDelegate.m */,
+				B367351319F10450009160FC /* Dylan.h */,
+				B367351419F10451009160FC /* Dylan.m */,
+				B367351019F10450009160FC /* Alice.h */,
+				B367351119F10450009160FC /* Alice.m */,
 				B39DBC5419E8E5F500A4BCC7 /* CoreData.xcdatamodeld */,
-				B3660F5B19E94B58000A11FF /* Alice.h */,
-				B3660F5C19E94B58000A11FF /* Alice.m */,
-				B39DBC5719E8E61D00A4BCC7 /* Dylan.h */,
-				B39DBC5819E8E61D00A4BCC7 /* Dylan.m */,
 				B39DBC2E19E8DB8A00A4BCC7 /* Images.xcassets */,
 				B39DBC2319E8DB8A00A4BCC7 /* Supporting Files */,
 			);
@@ -275,12 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39DBC5919E8E61D00A4BCC7 /* Dylan.m in Sources */,
+				B367351219F10450009160FC /* Alice.m in Sources */,
 				B39DBC5019E8DC1800A4BCC7 /* ADCoreData.m in Sources */,
 				B39DBC5319E8E07B00A4BCC7 /* ADCoreDataManager.m in Sources */,
 				B39DBC5619E8E5F500A4BCC7 /* CoreData.xcdatamodeld in Sources */,
+				B367351519F10451009160FC /* Dylan.m in Sources */,
 				B39DBC2919E8DB8A00A4BCC7 /* main.m in Sources */,
-				B3660F5D19E94B58000A11FF /* Alice.m in Sources */,
 				B39DBC2D19E8DB8A00A4BCC7 /* ADAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,9 +497,11 @@
 		B39DBC5419E8E5F500A4BCC7 /* CoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				B367350919F10402009160FC /* CoreData 3.xcdatamodel */,
+				B367350219F10329009160FC /* CoreData 2.xcdatamodel */,
 				B39DBC5519E8E5F500A4BCC7 /* CoreData.xcdatamodel */,
 			);
-			currentVersion = B39DBC5519E8E5F500A4BCC7 /* CoreData.xcdatamodel */;
+			currentVersion = B367350919F10402009160FC /* CoreData 3.xcdatamodel */;
 			path = CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

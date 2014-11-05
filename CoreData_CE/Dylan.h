@@ -2,7 +2,7 @@
 //  Dylan.h
 //  CoreData_CE
 //
-//  Created by Dylan on 14-10-11.
+//  Created by Dylan on 14-10-17.
 //  Copyright (c) 2014年 Dylan. All rights reserved.
 //
 
@@ -12,6 +12,7 @@
 
 @interface Dylan : NSManagedObject
 
+@property (nonatomic, retain) NSNumber * age;
 @property (nonatomic, retain) NSString * name;
 
 @end

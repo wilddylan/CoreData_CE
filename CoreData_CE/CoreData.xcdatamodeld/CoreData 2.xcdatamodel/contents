@@ -4,11 +4,10 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Dylan" representedClassName="Dylan" syncable="YES">
-        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
+        <element name="Dylan" positionX="-45" positionY="0" width="128" height="60"/>
         <element name="Alice" positionX="-45" positionY="9" width="128" height="60"/>
-        <element name="Dylan" positionX="-45" positionY="0" width="128" height="75"/>
     </elements>
 </model>
